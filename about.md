@@ -1,24 +1,12 @@
 ---
 layout: default
-title: About Long Haul
+title: Meppies Blog
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | relative_url }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with the <a href="https://github.com/jekyll/jekyll-sass-converter">Jekyll SASS convertor</a> plugin</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
+	<h1 class="pageTitle">About me</h1>
+	<center><img src="{{ '/assets/img/jeroen.jpg' | relative_url }}" alt="" width="20%" height="auto" style="border-radius: 20px 90px 40px 40px"></center>
+	<p class="intro">Jeroen Meppelink is a seasoned IT Consultant/Architect at RawWorks, specializing in End User Computing (EUC), Infrastructure as Code, and DevOps. With a keen focus on user experience, Jeroen leverages his technical expertise to design and implement robust, scalable, and secure EUC solutions.</p>
+	<p>His agile mindset enables him to quickly adapt to evolving business needs and customer requirements. Jeroen's deep understanding of automation and infrastructure allows him to streamline processes. By driving the adoption of DevOps practices, he empowers organizations to achieve greater efficiency and agility.</p>
+	<p>Jeroen is passionate about technology and committed to delivering innovative solutions that drive business value. His strong technical skills, combined with his ability to understand business needs, make him a valuable asset to any organization.</p>
 </div>

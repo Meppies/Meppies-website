@@ -1,14 +1,14 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Meppies Blog
+description: This is Meppies blog, where I share knowledge that I see in my work.
 
-url: https://long-haul.netlify.app
+url: https://meppie.eu
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 # Header Option
-# header: large
+header: large
 
 sass:
     style: compressed
@@ -22,20 +22,18 @@ navigation:
     - title: Home
       url: /index.html
     - title: About
-      url: /about
-    - title: Contact
-      url: /contact
+      url: /about    
+    - title: Articles
+      url: /articles
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+    github: Meppies
+    twitter: crasymeppie
+    email: meppies@meppies.nl
+    linkedin: jeroenmeppelink
+    youtube: TheMeppies
 
-google_analytics: "UA-58263416-1"
+google_analytics: 
 
 disqus:
-    shortname: brianmaierjr
+    shortname: Meppie

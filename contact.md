@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Meppies Blog
 ---
 
 <div id="contact">
