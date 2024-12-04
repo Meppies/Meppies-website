@@ -11,6 +11,9 @@
 				{%- if site.social.facebook -%}
 					{%- include footer_links/facebook_icon.html -%}
 				{%- endif -%}
+				{%- if site.social.bluesky -%}
+						{%- include footer_links/bluesky_icon.html -%}
+				{%- endif -%}
 				{%- if site.social.twitter -%}
 					{%- include footer_links/twitter_icon.html -%}
 				{%- endif -%}
@@ -29,6 +32,7 @@
 				{%- if site.social.email -%}
 					{%- include footer_links/email_icon.html -%}
 				{%- endif -%}
+				
 			</ul>
 		</div>
 	</div>
