@@ -7,7 +7,7 @@ thumbnail: "assets/images/database_upgrade.png"
 description: To upgrade the on-premises database of your Citrix CVAD environment, you have two options. You can either perform the upgrade manually, following a step-by-step process, or you can automate the entire procedure using code. Opting for the latter provides you with greater control and allows you to schedule the upgrade according to your preferred timeline.
 ---
 
-## the use
+## Ansible
 I employed Ansible to automate the upgrade process, leveraging variables (denoted by {% raw %}{{ }}{% endraw %}) to enhance flexibility. All commands are PowerShell-based, adaptable to your preferred automation tool.
 
 
