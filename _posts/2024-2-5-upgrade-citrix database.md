@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upgrade Citrix CVAD Database with Anisble code
+title: Upgrade Citrix CVAD Database with Ansible code
 Date: 2024-02-05
 categories: [Citrix, CVAD, Anisble, Powershell]
 thumbnail: "assets/images/database_upgrade.png"
