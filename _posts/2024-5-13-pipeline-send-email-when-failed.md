@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pipeline send an email when pipeline failed
+title: Pipeline send an email when stages failed
 Date: 2024-05-13
 categories: [ Anisble, Powershell, Azure Devops, Pipeline]
 thumbnail: "assets/images/database_upgrade.png"
