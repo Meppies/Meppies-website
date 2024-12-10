@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Set Director retention in a Ansible Library
+title: Set Director retention in an Ansible Library
 Date: 2024-07-08
 categories: [ Anisble, Powershell, Citrix, CVAD]
 thumbnail: "assets/images/database_upgrade.png"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Check Delivery controller state anisble Library
+title: Check Delivery controller state in an Ansible Library
 Date: 2024-09-12
 categories: [ Anisble, Powershell, Citrix, CVAD]
 thumbnail: "assets/images/database_upgrade.png"

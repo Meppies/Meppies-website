@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add admin to CVAD in a Ansible Library
+title: Add admin to CVAD in an Ansible Library
 Date: 2024-06-03
 categories: [ Anisble, Powershell, Citrix, CVAD]
 thumbnail: "assets/images/database_upgrade.png"
