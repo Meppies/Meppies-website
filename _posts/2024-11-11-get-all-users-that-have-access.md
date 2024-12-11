@@ -80,7 +80,6 @@ foreach($application in $applications){
             $usererrorfilter = $False
             $faileduser = $False
             $failedgroup = $False
-            $continue = $False
 
             try{
                 #Check if it's a user and remove the domain from the user
@@ -130,7 +129,7 @@ foreach($application in $applications){
             #If the application member is a group it continue over here 
             if($faileduser){
                 try{
-                    #Get all the group members and remove the AD\ from the member
+                    #Get all the group members and remove the domain from the member
                     $groupmember = Get-ADGroupMember $member.substring($domainnamelenght) -Recursive
                     $groupmembers = $groupmember.name 
 
@@ -204,7 +203,7 @@ foreach($application in $applications){
             #Check the Group on another way if it's failed because it's over 5000 users
             if($failedgroup){
                 try{
-                    #Get all the group members and remove the AD\ from the member
+                    #Get all the group members and remove the domain from the member
                     $groupmember = Get-ADGroup $member.substring($domainnamelenght) -Properties Member | Select-Object -ExpandProperty Member | Get-ADObject | select name | sort name
                     $groupmembers = $groupmember.name
 
