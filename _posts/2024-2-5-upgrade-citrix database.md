@@ -8,7 +8,7 @@ description: To upgrade the on-premises database of your Citrix CVAD environment
 ---
 
 ## Ansible
-I employed Ansible to automate the upgrade process, leveraging variables (denoted by {% raw %}{{ }}{% endraw %}) to enhance flexibility. All commands are PowerShell-based, adaptable to your preferred automation tool.
+I used Ansible to automate the upgrade process, leveraging variables (denoted by {% raw %}{{ }}{% endraw %}) to enhance flexibility. All commands are PowerShell-based, adaptable to your preferred automation tool.
 
 
 ### Backup the databases
